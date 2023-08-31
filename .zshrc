@@ -1,5 +1,8 @@
 # Basic .zshrc configuration
 
+# Aliases
+alias neofetch='hyfetch'
+
 # Set your preferred editor (e.g., nano, vim)
 export EDITOR=nvim
 
@@ -25,4 +28,3 @@ PROMPT="[%n@%m %~]$ "
 if [[ -s /usr/share/oh-my-zsh/oh-my-zsh.sh ]]; then
     source /usr/share/oh-my-zsh/oh-my-zsh.sh
 fi
-alias neofetch='hyfetch'
